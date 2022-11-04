@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+
+}
+
+#clockcontainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    background-color: lightcoral;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    transform-origin: bottom;
+    border-radius: 10px;
+    background: black;
+}
+
+#hour {
+    background-color: blue;
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.5%;
+}
+
+#minute {
+    background-color: green;
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.5%;
+
+}
+
+#second {
+    background-color: red;
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.5%;
+}
